@@ -19,12 +19,12 @@
 
 	<properties>
 		<jdk.version>1.8</jdk.version>
-		<spring.version>5.1.2.RELEASE</spring.version>
+		<spring.version>5.3.32</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url></sonar.host.url>
-		<sonar.login></sonar.login>
-		<sonar.password></sonar.password> 
+		<sonar.host.url/>
+		<sonar.login/>
+		<sonar.password/> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -94,7 +94,7 @@
 	<distributionManagement>
 	    <repository>
 	      <id>github</id>
-	      <name></name>
+	      <name/>
 	      <url>https://maven.pkg.github.com/xashy-devops/xashy-webapp</url>
 	    </repository>
 	    
